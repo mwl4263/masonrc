@@ -123,7 +123,7 @@ linestart () {
 }
 newline=$'\n'
 bgwhite="$bg[white]%f"
-PROMPT="$(linestart)$(left_triangle)%K{59}%F{%(0?.green.red)}%B 💀 MASON 💀 %k%K{214}$(right_triangle_first) %f%F{blue}%d %f%k%K{92}$(right_triangle_secondary)%t %k$(right_third)%F{cyan}${newline}╰─$%f%b "
+PROMPT="$(linestart)$(left_triangle)%K{59}%F{%(0?.green.red)}%B 💀 MASON 💀 %k%K{214}$(right_triangle_first) %f%F{blue}%d %f%k%K{92}$(right_triangle_secondary) %t %k$(right_third)%F{cyan}${newline}╰─$%f%b "
 alias mysql="/usr/local/mysql/bin/mysql -u root -p -v"
 neofetch
 CLASSPATH=.:/Users/masonlapine/Classes:/Users/masonlapine/Classes/mysql-connector-java-8.0.21.jar
