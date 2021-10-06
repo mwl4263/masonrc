@@ -1,0 +1,1 @@
+"$(linestart)$(left_triangle)%K{59}\e[0;%(0?.green.red)}%B 💀 MASON 💀 \e[%K{214;0m(right_triangle_first) \e[m\e[0;blue}%d \e[m\e[%K{92;0m(right_triangle_secondary) %t \e[$(right_third)\e[0;cyan;0m{newline}╰─$\e[m%b "
